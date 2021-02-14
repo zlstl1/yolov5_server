@@ -7,11 +7,10 @@
 
 ## 환경 설정
 
-- com.spring.controller의 Yolov5Controller 파일의 [29~31 Line](https://github.com/zlstl1/yolov5_server/blob/3ed875d7ebc6477eb8004449af8cc0ebff36a2cc/src/main/java/com/spring/controller/Yolov5Contoller.java#L29-L31)
+- com.spring.controller의 Yolov5Controller 파일의 [29~31 Line](https://github.com/zlstl1/yolov5_server/blob/3ed875d7ebc6477eb8004449af8cc0ebff36a2cc/src/main/java/com/spring/controller/Yolov5Contoller.java#L29-L31) 부분을 사용자 PC 환경에 맞게 수정(절대경로 입력)
   - String save_folder = "/home/di-01/Downloads/yolov5/save/";
   - String yolov5_folder = "/home/di-01/Downloads/yolov5/";
   - String run_folder = "/home/di-01/Downloads/yolov5/runs/yolov5_server_run/";
-  - 부분을 사용자 PC 환경에 맞게 수정(절대경로 입력)
   - save_folder : 업로드된 이미지가 저장될 폴더
   - yolov5_folder : https://github.com/zlstl1/yolov5_custom 을 통해 다운받은 Yolov5 폴더
   - run_folder : 분석된 이미지가 저장될 위치  
@@ -50,8 +49,8 @@
 }
 
 ## 응용서비스 개략도
-![image](https://user-images.githubusercontent.com/35329451/107865319-73207480-6ea8-11eb-9a9d-c1a1864df1d8.png)
+![image](https://user-images.githubusercontent.com/35329451/107865319-73207480-6ea8-11eb-9a9d-c1a1864df1d8.png){: display = "block" margin = "auto"}
 
 ## 서버 리턴값 예시
-![image](https://user-images.githubusercontent.com/35329451/107865320-76b3fb80-6ea8-11eb-9a86-0876a05f2612.png)
+![image](https://user-images.githubusercontent.com/35329451/107865320-76b3fb80-6ea8-11eb-9a86-0876a05f2612.png){: display = "block" margin = "auto"}
 
