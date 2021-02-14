@@ -49,8 +49,13 @@
 }
 
 ## 응용서비스 개략도
-![image](https://user-images.githubusercontent.com/35329451/107865319-73207480-6ea8-11eb-9a9d-c1a1864df1d8.png){: display = "block" margin = "auto"}
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/35329451/107865319-73207480-6ea8-11eb-9a9d-c1a1864df1d8.png"/>
+</p>
+
 
 ## 서버 리턴값 예시
-![image](https://user-images.githubusercontent.com/35329451/107865320-76b3fb80-6ea8-11eb-9a86-0876a05f2612.png){: display = "block" margin = "auto"}
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/35329451/107865320-76b3fb80-6ea8-11eb-9a86-0876a05f2612.png"/>
+</p>
 
